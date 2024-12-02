@@ -303,7 +303,7 @@
 
 /*ALL @MEDIA*/
 
-@media (width >= 760px) {
+@media (width >= 768px) {
   .header {
     gap: 162px;
     margin-block-end: 60px;
@@ -412,7 +412,7 @@
   }
 }
 
-@media screen and (width >= 1000px) {
+@media screen and (width >= 1024px) {
   .header {
     gap: 114px;
     padding-block-start: 20px;
