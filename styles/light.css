@@ -13,8 +13,8 @@
   --main-font-bold: 700;
   --main-font-tiny: 400;
   --decor-color: #353430;
-  --decor-bg-color: #FF8DCB;
-  --main-title-color: #FFC2E6;  
+  --decor-bg-color: #ff8dcb;
+  --main-title-color: #ffc2e6;
 }
 
 /* Остальные стили */
@@ -43,8 +43,8 @@
     --main-font-bold: 700;
     --main-font-tiny: 400;
     --decor-color: #353430;
-    --decor-bg-color: #FF8DCB;
-    --main-title-color: #FFC2E6;    
+    --decor-bg-color: #ff8dcb;
+    --main-title-color: #ffc2e6;
   }
 
   .page.theme_light {
