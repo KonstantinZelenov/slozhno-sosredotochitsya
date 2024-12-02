@@ -27,6 +27,7 @@
 /*HEADER AND PSEUDO ELEMENTS */
 
 .header {
+  block-size: 100vh;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -96,9 +97,6 @@
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
-}
-
-.header__theme-menu-button {
   cursor: pointer;
 }
 
@@ -147,7 +145,7 @@
 }
 
 .decorated-zone::before,
-.decorated-zone::after{
+.decorated-zone::after {
   content: '';
   position: absolute;
   width: 26px;
@@ -288,6 +286,7 @@
   width: 100%;
   padding-top: clamp(289px, 7.1999rem + 45.5471vw, 29.0625rem);
   padding-bottom: clamp(17.875rem, 7.1999rem + 45.5471vw, 29.0625rem);
+  block-size: 100vh;
 }
 
 .footer-title {
@@ -310,7 +309,7 @@
     margin-block-end: 60px;
     padding-inline-start: 0;
     padding-inline-end: calc(var(--padding-page) * 2);
-    padding-block-start: clamp(4.6875rem, -2.2304rem + 29.5165vw, 11.9375rem);;
+    padding-block-start: clamp(4.6875rem, -2.2304rem + 29.5165vw, 11.9375rem);
     padding-block-end: 183px;
   }
 
