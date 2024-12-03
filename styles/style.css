@@ -12,17 +12,6 @@
   background-attachment: fixed;
 }
 
-.pixel-perfect-image {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  z-index: 1;
-  opacity: 0.5;
-  filter: sepia(0.6);
-  transform: translateX(-50%);
-  pointer-events: none;
-}
-
 /*HEADER AND PSEUDO ELEMENTS */
 
 .header {
