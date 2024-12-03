@@ -1,1 +1,1 @@
-https://github.com/KonstantinZelenov/slozhno-sosredotochitsya
+https://github.com/KonstantinZelenov/slozhno-sosredotochitsya.git
