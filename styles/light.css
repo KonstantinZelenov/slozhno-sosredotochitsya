@@ -15,6 +15,7 @@
   --decor-color: #353430;
   --decor-bg-color: #ff8dcb;
   --main-title-color: #ffc2e6;
+  --rec-display: none;
 }
 
 /* Остальные стили */
@@ -28,11 +29,11 @@
 }
 
 .theme_light .rec-decoration {
-  display: none;
+  display: var(--rec-display);
 }
 
 @media (prefers-color-scheme: light) {
-  :root .theme_light {
+  :root {
     /* Дублируем переменные светлой темы */
     --bg-color: #000028;
     --main-color-text: #353430;
@@ -45,9 +46,10 @@
     --decor-color: #353430;
     --decor-bg-color: #ff8dcb;
     --main-title-color: #ffc2e6;
+    --rec-display: none;
   }
 
-  .page.theme_light {
+  .page {
     background-image: url(../images/cover-image-light.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -55,7 +57,7 @@
     background-attachment: fixed;
   }
 
-  .theme_light .rec-decoration {
-    display: none;
+  .rec-decoration {
+    display: var(--rec-display);
   }
 }

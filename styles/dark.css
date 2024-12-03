@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-dark {
+:root .theme_dark {
   --bg-color: #000028;
   --main-color-text: #F1B2CE;
   --accent-color-text: #FF0070;
@@ -15,6 +15,7 @@
   --decor-color: #000028;
   --decor-bg-color: #FF0070;
   --main-title-color: #DB00FF;
+  --rec-display: block;
 }
 
 .page.theme_dark {
@@ -24,6 +25,41 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.rec-decoration {
+  display: var(--rec-display);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --bg-color: #000028;
+    --main-color-text: #F1B2CE;
+    --accent-color-text: #FF0070;
+    --main-font-size: 18px;
+    --padding-page: 10px;
+    --main-font: "IBM Plex Mono";
+    --main-font-bold: 700;
+    --main-font-tiny: 400;
+    --decor-color: #000028;
+    --decor-bg-color: #FF0070;
+    --main-title-color: #DB00FF;
+    --rec-display: block;
+    }
+
+  .page {
+    background-color: var(--bg-color);
+    background-image: url(../images/cover-image-dark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .rec-decoration {
+    display: var(--rec-display);
+  }
 }
 
 
