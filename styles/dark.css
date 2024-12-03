@@ -4,7 +4,6 @@
   переключая тему
 */
 :root .theme_dark {
-  --bg-color: #000028;
   --main-color-text: #F1B2CE;
   --accent-color-text: #FF0070;
   --main-font-size: 18px;
@@ -19,7 +18,6 @@
 }
 
 .page.theme_dark {
-  background-color: var(--bg-color);
   background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +32,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     /* Дублируем переменные светлой темы */
-    --bg-color: #000028;
     --main-color-text: #F1B2CE;
     --accent-color-text: #FF0070;
     --main-font-size: 18px;
@@ -49,7 +46,6 @@
     }
 
   .page {
-    background-color: var(--bg-color);
     background-image: url(../images/cover-image-dark.png);
     background-repeat: no-repeat;
     background-position: center;

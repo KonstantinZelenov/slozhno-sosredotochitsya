@@ -4,7 +4,6 @@
   переключая тему
 */
 :root .theme_light {
-  --bg-color: #ffc2e6;
   --main-color-text: #353430;
   --accent-color-text: #353430;
   --main-font-size: 18px;
@@ -35,7 +34,6 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
-    --bg-color: #ffc2e6;
     --main-color-text: #353430;
     --accent-color-text: #353430;
     --main-font-size: 18px;
